@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #4b494f;
+}
+* {
+    box-sizing: border-box;
+}
