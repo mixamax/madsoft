@@ -13,7 +13,10 @@ function App() {
     const setZeroProgress = useTestStore((state) => state.setZeroProgress);
 
     const [modal, setModal] = useState<TmodalState>(() => ({
-        isOpen: history.state?.isModalOpen ? true : history.state.isModalOpen,
+        isOpen:
+            history.state?.isModalOpen == undefined
+                ? true
+                : history.state.isModalOpen,
         title: "Тест про JS на английском",
         buttonText: "начать",
     }));

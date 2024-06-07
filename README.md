@@ -1,6 +1,6 @@
 # тестовое задание madsoft
 
-### React + typescript + zustand + MUI
+### React + typescript + zustand + MUI + History API
 
 ## деплой на https://
 
