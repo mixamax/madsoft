@@ -31,7 +31,7 @@ const QuestionContext = createContext<TContext | null>(null);
 
 export function Question({ children, question, openModal }: Props) {
     const value = useMemo(() => ({ question, openModal }), [question]);
-    // const value = { question, openModal };
+
     return (
         <QuestionContext.Provider value={value}>
             {children}

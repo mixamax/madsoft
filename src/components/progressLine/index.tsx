@@ -1,8 +1,6 @@
 import { Box } from "@mui/material";
 import { Tquestion } from "../../model/types";
 
-// const line = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-// const active = 3;
 enum Colors {
     behind = "black",
     active = "#af8ef5",
